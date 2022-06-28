@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout_add_post"
+    tools:openDrawer="start"
+    android:background="#BCC3C0C0"
+    tools:context=".AddPostActivity">
+
+    <ImageView
+        android:id="@+id/backImgCommunity"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/add_post"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+
+
+        <EditText
+            android:paddingHorizontal="16dp"
+            android:id="@+id/titleTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="49dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/border_text_edit"
+            android:hint="@string/title"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+
+        <EditText
+            android:id="@+id/descriptionTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="15dp"
+            android:paddingHorizontal="16dp"
+            android:background="@drawable/border_text_edit"
+            android:hint="@string/description"
+            android:textColor="@color/black"
+
+            android:textColorHint="@color/black"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/flairTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/border_text_edit"
+            android:hint="@string/flair"
+            android:textColor="@color/black"
+            android:paddingHorizontal="16dp"
+            android:textColorHint="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAddPost"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@drawable/log_in_btn"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

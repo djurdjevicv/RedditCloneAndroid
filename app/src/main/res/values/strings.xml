@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">RedditCloneAndroid</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="description">Description</string>
+    <string name="displayName">Display name</string>
+    <string name="logInText">If you do not have account please:</string>
+    <string name="signUpText">If you have account please:</string>
+    <string name="comments">Comments</string>
+    <string name="add_post">ADD POST</string>
+    <string name="title">TITLE</string>
+    <string name="picture">PICTURE</string>
+    <string name="flair">FLAIR</string>
+    <string name="submit">Submit</string>
+
+    <string-array name="username_post">
+        <item>Dovla</item>
+        <item>Petrex</item>
+        <item>Ogi</item>
+    </string-array>
+
+    <string-array name="community_post">
+        <item>community1</item>
+        <item>community2</item>
+        <item>community3</item>
+    </string-array>
+
+    <string-array name="community_name">
+        <item>community name 1</item>
+        <item>community name 2</item>
+        <item>community name 3</item>
+    </string-array>
+
+    <string-array name="title_post">
+        <item>TITLE1</item>
+        <item>TITLE2</item>
+        <item>TITLE3</item>
+    </string-array>
+
+    <string-array name="text_post">
+        <item>Some text for post 1</item>
+        <item>Some text for post 2</item>
+        <item>Some text for post 3</item>
+    </string-array>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string-array name="rules">
+        <item>Rules number 1</item>
+        <item>Rules number 2</item>
+        <item>Rules number 3</item>
+        <item>Rules number 4</item>
+    </string-array>
+
+    <string-array name="sortPost">
+        <item>Top</item>
+        <item>New</item>
+        <item>Hot</item>
+    </string-array>
+
+    <string-array name="sortComments">
+        <item>Top</item>
+        <item>New</item>
+        <item>Old</item>
+    </string-array>
+
+    <string-array name="comments">
+        <item>Text commment number 1</item>
+        <item>Text commment number 2</item>
+        <item>Text commment number 3</item>
+        <item>Text commment number 4</item>
+    </string-array>
+    <string name="title_activity_community_flairs">activity_community_flairs</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

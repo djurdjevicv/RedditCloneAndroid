@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.redditcloneandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RedditCloneAndroid"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".CommunityFlairsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_community_flairs"
+            android:exported="false"
+            android:label="@string/title_activity_community_flairs"
+            android:theme="@style/Theme.RedditCloneAndroid.NoActionBar" />
+        <activity
+            android:name=".FragmentChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentUserUpdatePosts"
+            android:exported="false" />
+        <activity
+            android:name=".community_card"
+            android:exported="false" />
+        <activity
+            android:name=".CommunityRulesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CommunityPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentSuspendCommunity"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentListOfFlairs"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentReportedPosts"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentReportedComments"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentBlockUser"
+            android:exported="false" />
+        <activity
+            android:name=".OnePostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentAddCommunity"
+            android:exported="false" />
+        <activity
+            android:name=".ListOfRules"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentSuspendModerators"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentChangeAccountData"
+            android:exported="false" />
+        <activity
+            android:name=".UserActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

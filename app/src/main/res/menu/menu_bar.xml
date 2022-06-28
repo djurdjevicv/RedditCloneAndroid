@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/navFisrtPagePosts"
+            android:icon="@drawable/first_page_24"
+            android:title="Posts"/>
+        <item android:id="@+id/navAddPostUser"
+            android:icon="@drawable/add_post"
+            android:visible="false"
+            android:title="Add Post"/>
+        <item android:id="@+id/navAddCommunityUser"
+            android:visible="false"
+            android:icon="@drawable/community"
+            android:title="Add community"/>
+        <item android:id="@+id/navUserPosts"
+            android:visible="false"
+            android:icon="@drawable/community"
+            android:title="Your posts"/>
+
+
+        <item android:id="@+id/blocModerators"
+            android:icon="@drawable/block"
+            android:visible="false"
+            android:title="Block moderators"/>
+        <item android:id="@+id/blockCommunity"
+            android:icon="@drawable/block"
+            android:visible="false"
+            android:title="Suspend community"/>
+
+
+        <item android:id="@+id/navBlocUser"
+            android:icon="@drawable/block"
+            android:visible="false"
+            android:title="Block user"/>
+        <item android:id="@+id/navReportCom"
+            android:icon="@drawable/report"
+            android:visible="false"
+            android:title="Reported comments "/>
+        <item android:id="@+id/navReportPost"
+            android:icon="@drawable/report"
+            android:visible="false"
+            android:title="Reported posts "/>
+        <item android:id="@+id/navFlairs"
+            android:visible="false"
+            android:icon="@drawable/flag"
+            android:title="List of flairs" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <item android:id="@+id/navUserAcc"
+                android:icon="@drawable/account_circle"
+                android:visible="false"
+                android:title="Your account"
+                />
+            <item android:id="@+id/navChangePassword"
+                android:icon="@drawable/ic_baseline_lock_24"
+                android:title="Change password"/>
+
+            <item android:id="@+id/logOut"
+                android:icon="@drawable/login"
+                android:title="Log out"
+                />
+        </menu>
+    </item>
+
+
+</menu>
